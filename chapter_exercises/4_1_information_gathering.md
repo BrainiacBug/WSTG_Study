@@ -2,7 +2,8 @@
 ## 4.1.1 Conduct Search Engine Discovery Reconnaissance for Information Leakage
 
 [OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.html)
-Use a search engine to search for potentially sensitive information
+
+Use a search engines to search for potentially sensitive information
 
 Search Engines:
 - [Baidu](https://www.baidu.com/)
@@ -16,6 +17,23 @@ Search Engines:
 - [Shodan](https://www.shodan.io/)
 
 Exercise:
+### Search Engines & Operators
+- [ ] Select target page and search information from different search engines. How much does are results different? Give a short description of what search engines to use in different situations.
+- [ ] Try searching with operators in search engines and see can you find something intresting
+	- site:target.url
+	- inurl:phpinfo
+	- intitle:"index of /"
+	- filetype:pdf
+
+- [ ] Try to combinate different operators to get more precise search
+	Example:
+	- site:target.url intitle:"index of /" inurl:backups
+
+### Cached Content
+- [ ] Try to use cache:target.url and see if page is any different
+
+### Google Hacking/Dorking
+- [ ] Browse through possible dorks and list the top 3 that you think are exposing critical information. Give a short explanation of why this information is critical.
 
 ## 4.1.2 Fingerprint Web Server
 
