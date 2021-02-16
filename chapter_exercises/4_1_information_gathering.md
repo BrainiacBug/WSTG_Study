@@ -16,26 +16,29 @@ Search Engines:
 - [Commoncrawl](https://commoncrawl.org/)
 - [Shodan](https://www.shodan.io/)
 
-Exercise:
+
 ### Search Engines & Operators
 - [ ] Select target page and search information from different search engines. How much does are results different? Give a short description of what search engines to use in different situations.
-- [ ] Try searching with operators in search engines and see can you find something intresting
+- [ ] Try searching with operators in search engines and see can you find something intresting. Write down any intresting findings.
 	- site:target.url
 	- inurl:phpinfo
 	- intitle:"index of /"
 	- filetype:pdf
 
-- [ ] Try to combinate different operators to get more precise search
-	Example:
+- [ ] Try to combinate different operators to get more precise search. Write down what combinations you came up with and what results they gave.
 	- site:target.url intitle:"index of /" inurl:backups
 
 ### Cached Content
-- [ ] Try to use cache:target.url and see if page is any different
+- [ ] Try to use cache:target.url and see if page is any different. Write down your findings.
 
 ### Google Hacking/Dorking
 - [ ] Browse through possible dorks and list the top 3 that you think are exposing critical information. Give a short explanation of why this information is critical.
 
 ## 4.1.2 Fingerprint Web Server
+- [ ] Perform banner grabbing to at least 3 different targets. Write down your findings.
+- [ ] Sending malformed requests to at least 3 different targets. Write down your findings.
+- [ ] Extra mile: Write a script that can perform these two actions automatically when the target URL is provided.
+- [ ] Try out [Netcraft](https://sitereport.netcraft.com/) on target and write down your findings.
 
 ## 4.1.3 Review Webserver Metafiles for Information Leakage
 
