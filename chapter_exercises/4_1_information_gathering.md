@@ -66,7 +66,7 @@ Search Engines:
 - [ ] Use reverse-IP services with the target IP address to discover new information. Write down your findings.
 
 ## 4.1.5 Review Webpage Content for Information Leakage
-[OWASP Wiki link] (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.html)
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.html)
 
 - [] Use Burp suite to find HTML comments. Write down if anything interesting was found.
 - [] What META tags are used on the target page and do they give out any information? Write down your findings.
@@ -79,7 +79,7 @@ Search Engines:
 ## 4.1.8 Fingerprint Web Application Framework
 
 ## 4.1.9 Fingerprint Web Application
-[OWASP Wiki link] (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.html)
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.html)
 
 Merged with the previous one.
 
