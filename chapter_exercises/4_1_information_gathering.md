@@ -68,15 +68,32 @@ Search Engines:
 ## 4.1.5 Review Webpage Content for Information Leakage
 [OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.html)
 
-- [] Use Burp suite to find HTML comments. Write down if anything interesting was found.
-- [] What META tags are used on the target page and do they give out any information? Write down your findings.
-- [] Look through target javascript files and terminate if the target uses source map files. Write down if anything interesting was found.
+- [ ] Use Burp suite to find HTML comments. Write down if anything interesting was found.
+- [ ] What META tags are used on the target page and do they give out any information? Write down your findings.
+- [ ] Look through target javascript files and terminate if the target uses source map files. Write down if anything interesting was found.
 
 ## 4.1.6 Identify Application Entry Points
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.html)
+
+- [ ] Start exploring the target site and proxy all traffic through ZAP/Burp. Analyze traffic and markdown entry points. Write down your findings.
+- [ ] Extra mile: Try out OWASP Attack Surface Detector tool and view results with ZAP/Burp
 
 ## 4.1.7 Map Execution Paths Through Application
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.html)
+
+- [ ] Start ZAP/Burp spider on target website. Let it run and find all pages.
+- [ ] Start exploring the target site and proxy all traffic through ZAP/Burp. After finishing analyze how much spider and manual results different. How much more were you able to find?
+- [ ] Make draw.io/mindmap diagram about different flows used in applications.
 
 ## 4.1.8 Fingerprint Web Application Framework
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.html)
+
+- [ ] Identify target site HTTP headers. Do some of them help to identify what system is in use? Write down your findings.
+- [ ] Identify target site Cookies. Do some of them help to identify what system is in use? Write down your findings.
+- [ ] Look target site HTML source code. Do some of them help to identify what system is in use? Write down your findings.
+- [ ] Try to find Error messages. Do some of them help to identify what system is in use? Write down your findings.
+- [ ] Do any specific file or folder names help to identify what platform is in use? Write down your findings.
+- [ ] Do any specific File Extensions help to identify what technology is in use? Write down your findings.
 
 ## 4.1.9 Fingerprint Web Application
 [OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/09-Fingerprint_Web_Application.html)
@@ -84,3 +101,4 @@ Search Engines:
 Merged with the previous one.
 
 ## 4.1.10 Map Application Architecture
+[OWASP Wiki link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.html)
